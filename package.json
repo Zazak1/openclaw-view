@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-view",
+  "version": "1.0.0",
+  "description": "OpenClaw 控制台前端，可独立部署，通过 WebSocket 连接 OpenClaw Gateway",
+  "private": true,
+  "scripts": {
+    "build": "cd ui && pnpm install && pnpm build",
+    "dev": "cd ui && pnpm dev",
+    "preview": "cd ui && pnpm preview"
+  },
+  "keywords": ["openclaw", "control-ui", "gateway"],
+  "license": "MIT"
+}
